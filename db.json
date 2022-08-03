@@ -1,0 +1,589 @@
+
+[
+  {
+    "id": "1",
+    "nombre": "seysol",
+    "direccion" : [10.375448736059493, -75.50427529203134],
+    "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+    "actividad": "Industrial",
+    "sector": "primario",
+    "productos":[
+      {
+        "nombre" : "aceite industrial",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite refinado",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 5",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 7",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      }
+
+    ],
+    "materias": [
+      {
+        "nombre": "petroleo",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 2",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 3",
+        "origen": "vegetal",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "renovable"
+      },
+      {
+        "nombre": "materia 4",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      }
+    ],
+    "residuos": [
+      {
+        "nombre" : "desecho 1 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "alta",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 2 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "media",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 3 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "baja",
+        "tipoAfectacion": "ecosistemas"
+
+      }
+    ],
+    "afectaciones": [
+      {
+        "nombre" : "afectacion 1",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      },
+      {
+        "nombre" : "afectacion 2",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "salud",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 3",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 4",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      }
+
+    ]
+
+
+  },
+  {
+    "id" : "2",
+    "nombre": "Termo Candelaria",
+    "direccion" : [10.360052783417773, -75.4857908728272],
+    "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+    "actividad": "Industrial",
+    "sector": "primario",
+    "productos":[
+      {
+        "nombre" : "aceite industrial",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite refinado",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 5",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 7",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      }
+
+    ],
+    "materias": [
+      {
+        "nombre": "petroleo",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 2",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 3",
+        "origen": "vegetal",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "renovable"
+      },
+      {
+        "nombre": "materia 4",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      }
+    ],
+    "residuos": [
+      {
+        "nombre" : "desecho 1 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "alta",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 2 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "media",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 3 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "baja",
+        "tipoAfectacion": "ecosistemas"
+
+      }
+    ],
+    "afectaciones": [
+      {
+        "nombre" : "afectacion 1",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      },
+      {
+        "nombre" : "afectacion 2",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "salud",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 3",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 4",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      }
+
+    ]
+
+
+  },
+  {
+    "id": "3",
+    "nombre": "Control Energy",
+    "direccion" : [10.387176688577107, -75.49382677501062],
+    "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+    "actividad": "Industrial",
+    "sector": "primario",
+    "productos":[
+      {
+        "nombre" : "aceite industrial",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite refinado",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 5",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 7",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      }
+
+    ],
+    "materias": [
+      {
+        "nombre": "petroleo",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 2",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 3",
+        "origen": "vegetal",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "renovable"
+      },
+      {
+        "nombre": "materia 4",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      }
+    ],
+    "residuos": [
+      {
+        "nombre" : "desecho 1 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "alta",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 2 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "media",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 3 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "baja",
+        "tipoAfectacion": "ecosistemas"
+
+      }
+    ],
+    "afectaciones": [
+      {
+        "nombre" : "afectacion 1",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      },
+      {
+        "nombre" : "afectacion 2",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "salud",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 3",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 4",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      }
+
+    ]
+
+
+  },
+  {
+    "id": "4",
+    "nombre": "Roca Fuerte SAS ",
+    "direccion" : [10.412248603155222, -75.4868067131132],
+    "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+    "actividad": "Industrial",
+    "sector": "primario",
+    "productos":[
+      {
+        "nombre" : "aceite industrial",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite refinado",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 5",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 7",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      }
+
+    ],
+    "materias": [
+      {
+        "nombre": "petroleo",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 2",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 3",
+        "origen": "vegetal",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "renovable"
+      },
+      {
+        "nombre": "materia 4",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      }
+    ],
+    "residuos": [
+      {
+        "nombre" : "desecho 1 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "alta",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 2 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "media",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 3 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "baja",
+        "tipoAfectacion": "ecosistemas"
+
+      }
+    ],
+    "afectaciones": [
+      {
+        "nombre" : "afectacion 1",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      },
+      {
+        "nombre" : "afectacion 2",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "salud",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 3",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 4",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      }
+
+    ]
+
+
+  },
+  {
+    "id": "5",
+    "nombre": "Napoleon perea SAS ",
+    "direccion" : [10.389594005384616, -75.4945614157472],
+    "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+    "actividad": "Industrial",
+    "sector": "primario",
+    "productos":[
+      {
+        "nombre" : "aceite industrial",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite refinado",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 5",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      },
+      {
+        "nombre" : "aceite grado 7",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "categoria" : "aditivos"
+      }
+
+    ],
+    "materias": [
+      {
+        "nombre": "petroleo",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 2",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      },
+      {
+        "nombre": "materia 3",
+        "origen": "vegetal",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "renovable"
+      },
+      {
+        "nombre": "materia 4",
+        "origen": "mineral",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "abundancia": "no renovable"
+      }
+    ],
+    "residuos": [
+      {
+        "nombre" : "desecho 1 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "alta",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 2 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "media",
+        "tipoAfectacion": "salud"
+
+      },
+      {
+        "nombre" : "desecho 3 ",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "peligrosidad" : "baja",
+        "tipoAfectacion": "ecosistemas"
+
+      }
+    ],
+    "afectaciones": [
+      {
+        "nombre" : "afectacion 1",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      },
+      {
+        "nombre" : "afectacion 2",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "salud",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 3",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "no aplica",
+        "poblacionAfectada": "niños"
+
+      },
+      {
+        "nombre" : "afectacion 4",
+        "descripcion" : "qnatis. Nunc sit amet sagittis arcu, ac porta dolor. Praesent rutrum laoreet condimentum. Vestibulum rhoncus nibh elementum, rhoncus ligula et, convallis tellus. Proin eget nisl metus. Nullam tempus diam id sem cursus, et",
+        "tipoAfectacion": "ecosistemas",
+        "ecosistemasAfectados": "terrestres, acuaticos",
+        "poblacionAfectada": "no aplica"
+
+      }
+
+    ]
+
+
+  }
+
+]

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/atomic.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script defer type="module" src="../js/controladores/controladorEmpresas.js"></script>
+    <meta charset="UTF-8">
+    <title>Empresas</title>
+</head>
+<body>
+<header class="d-flex ai-center jc-between bg-blue-primary p-2 res-flex-column res-p-1 ">
+    <h1 class="fs-30 c-white res-fs-20 res-mt-2">
+        Mapa Contaminantes
+    </h1>
+    <ul class="d-flex res-flex-column res-jc-center res-ai-center res-mt-2">
+
+        <li class="res-mb-1"><a href="empresas.html" class="p-1 bb-white_h ">Empresas</a></li>
+        <li class="res-mb-1"><a href="dashboard.html" class="p-1 bb-white_h ">Dashboards</a></li>
+        <li class="res-mb-1"><a href="mapa.html" class="p-1 bb-white_h">Mapa interactivo</a></li>
+        <li class="res-mb-1"><a href="miPerfil.html" class="p-1 bb-white_h">Mi Perfil</a></li>
+        <li class="res-mb-1"><a href="../index.html" class="p-1 bb-white_h">Cerrar Sesión</a></li>
+
+    </ul>
+</header>
+
+<main class="pt-2 pl-5 pr-5 res-p-1">
+
+    <section>
+        <div class="d-flex w-percent-40 ai-center bc-blue-primary mt-5 br-10 res-w-percent-100">
+            <input id="buscador" class="w-percent-100 pt-small pb-small ff-raleway fs-12 br-10" type="text" placeholder="Buscar Empresas">
+            <i class='c-blue-primary fs-14 mr-1 bx bx-search'></i>
+        </div>
+    </section>
+
+    <section>
+
+        <h1 class="fs-25 mt-5 mb-3 res-fs-20">Empresas Registradas</h1>
+        <div class="min-h-50 d-flex jc-center ai-center f-column">
+
+            <div id="icono-carga" class="d-none" >
+                <i class= 'fs-50 c-blue-primary bx bx-loader bx-spin' ></i>
+            </div>
+
+            <img id="imgErrorBusqueda"  class="w-30 res-w-15 d-none" src="../assets/logos/logoError.svg" alt="">
+
+            <div id="cont-empresas" class="d-flex jc-around f-wrap">
+                <!-- Tarjetas -->
+            </div>
+
+        </div>
+
+    </section>
+    <section class="d-flex jc-center mt-3 mb-3 ">
+        <button id="botonAnterior" class="p-1 w-10 ff-raleway fs-12 mr-1 bg-blue-primary c-white bg-white_h bc-blue-primary_h c-blue-primary_h ">anterior</button>
+        <button id="botonSiguiente" class="p-1 w-10 ff-raleway fs-12 ml-1 bg-blue-primary c-white bg-white_h bc-blue-primary_h c-blue-primary_h ">anterior</button>
+
+    </section>
+</main>
+
+<section id="modal" class="modal">
+    <div  class="modal__container ">
+        <img src="../assets/logos/logoError.svg" class="w-percent-50">
+        <h2 class="fs-20 mb-2">
+            Opps ha ocurrido un error!
+        </h2>
+        <p class="mb-1">
+            Porfavor Vuelva a intentarlo en un momento
+        </p>
+        <button id="botonModal"  class="p-1 pl-3 pr-3 bg-blue-primary c-white bc-blue-primary_h bg-white_h c-blue-primary_h">Cerrar</button>
+    </div>
+</section>
+<footer class="bg-blue-primary p-3 res-p-1">
+
+    <section class="d-flex jc-center bc-white pt-small">
+
+        <a href=""><i class="fs-25 m-1 bx bxl-facebook-circle"></i></a>
+        <a href=""><i class="fs-25 m-1 bx bxl-instagram-alt"></i></a>
+        <a href=""><i class="fs-25 m-1 bx bxl-twitter"></i></a>
+
+
+    </section>
+    <section class="d-flex res-flex-column">
+
+        <div class="d-flex w-percent-50 ai-center jc-center bc-white mt-2 p-3 mr-1 res-flex-column res-p-0 res-w-percent-100">
+            <img class="res-p-1" src="../assets/logos/logoContacto.svg" alt="">
+            <div class="ml-2 res-mt-2 ">
+                <h3 class="fs-14 mb-1 c-white">Contacto</h3>
+                <ul class="res-mt-1" >
+                    <li class="mb-1"><a class="bb-white_h" href="">Lorem ipsum dolor sit.</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Commodi facilis quia quis!</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Aspernatur explicabo !</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Eius explicabo nihil repudiandae.</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="d-flex w-percent-50 ai-center jc-center bc-white mt-2 ml-1 res-flex-column res-p-0 res-m-0 res-mt-1 res-w-percent-100">
+            <img class="res-p-1"  src="../assets/logos/logoEnlaces.svg" alt="">
+            <div class="ml-2">
+                <h3 class="fs-14 mb-1 c-white">Sitios de interes</h3>
+                <ul>
+                    <li class="mb-1"><a class="bb-white_h" href="">Lorem ipsum dolor sit.</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Commodi facilis quia quis!</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Aspernatur explicabo !</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Eius explicabo nihil repudiandae.</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</footer>
+<section class="bg-blue-dark d-flex jc-center ai-center c-white p-1">
+    <p>creditos del sitio</p>
+</section>
+</body>
+</html>

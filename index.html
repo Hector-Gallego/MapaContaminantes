@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap"
+          rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <script defer src="js/controladores/controladorSesion.js"></script>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/atomic.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Mapa Contaminantes</title>
+</head>
+<body>
+
+
+<header class="d-flex ai-center jc-between bg-blue-primary p-2 res-flex-column res-p-1 ">
+    <h1 class="fs-30 c-white res-fs-20">
+        Mapa contaminates
+    </h1>
+    <section>
+        <form class="res-d-flex res-flex-column res-jc-center res-ai-center">
+            <input class="res-mt-2 res-mb-1 pb-small pt-small w-15 ff-raleway " type="email" placeholder="correo electronico">
+            <input class="res-mb-1 pb-small pt-small w-15 ff-raleway" type="password" placeholder="contraseña">
+            <button id="botonSesion" class="__btn-login  pb-small pt-small w-10 bg-blue-primary bc-white c-white bg-white_h c-blue-primary_h ff-raleway"> Entrar</button>
+
+        </form>
+    </section>
+</header>
+
+
+
+
+<main class="d-flex p-10 res-p-1 res-flex-column">
+
+
+    <section class="pr-5 res-p-0 res-mb-3">
+        <h1 class="fs-25  mb-3 res-mt-2 res-fs-20">Descripción de la Aplicación</h1>
+        <p class="fs-12 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+            aspernatur atque cupiditate deleniti dolorem et, id, modi mollitia natus nobis nostrum nulla
+            repellat repudiandae soluta tempora vel veniam voluptas. Quo.
+        </p>
+        <img class="res-w-percent-100" src="assets/img/mapa.png" alt="">
+        <p class=" mt-3 fs-12 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+            aspernatur atque cupiditate deleniti dolorem et, id, modi mollitia natus nobis nostrum nulla
+            repellat repudiandae soluta tempora vel veniam voluptas. Quo.
+        </p>
+        <img class="res-w-percent-100" src="assets/img/detallesEmpresa.png" alt="">
+    </section>
+
+    <section class="d-flex f-column w-percent-50 res-w-percent-100 res-mb-3">
+
+        <h1 class="fs-16 mt-2 mb-2 ">Registro de usuario</h1>
+        <img class="mb-2" src="assets/logos/logoRegistro.svg" alt="">
+        <form class="d-flex f-column" action="">
+
+            <label class="mb-1">Correo Eléctronico</label>
+            <input name="correo" class="mb-2 pb-small pt-small ff-raleway bc-blue-primary" type="email">
+
+            <label class="mb-1">Contraseña</label>
+            <input name="contrasenia" class="mb-2 pb-small pt-small ff-raleway bc-blue-primary" type="password">
+
+            <input class="__btn-login  pb-small pt-small bg-blue-primary bc-white c-white bg-white_h c-blue-primary_h ff-raleway bc-blue-primary_h"
+                   type="submit" value="Aceptar">
+
+        </form>
+
+    </section>
+</main>
+
+<footer class="bg-blue-primary p-3 res-p-1">
+
+    <section class="d-flex jc-center bc-white pt-small">
+
+        <a href=""><i class="fs-25 m-1 bx bxl-facebook-circle"></i></a>
+        <a href=""><i class="fs-25 m-1 bx bxl-instagram-alt"></i></a>
+        <a href=""><i class="fs-25 m-1 bx bxl-twitter"></i></a>
+
+
+    </section>
+    <section class="d-flex res-flex-column">
+
+        <div class="d-flex w-percent-50 ai-center jc-center bc-white mt-2 p-3 mr-1 res-flex-column res-p-0 res-w-percent-100">
+            <img class="res-p-1" src="../assets/logos/logoContacto.svg" alt="">
+            <div class="ml-2 res-mt-2 ">
+                <h3 class="fs-14 mb-1 c-white">Contacto</h3>
+                <ul class="res-mt-1" >
+                    <li class="mb-1"><a class="bb-white_h" href="">Lorem ipsum dolor sit.</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Commodi facilis quia quis!</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Aspernatur explicabo !</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Eius explicabo nihil repudiandae.</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="d-flex w-percent-50 ai-center jc-center bc-white mt-2 ml-1 res-flex-column res-p-0 res-m-0 res-mt-1 res-w-percent-100">
+            <img class="res-p-1"  src="../assets/logos/logoEnlaces.svg" alt="">
+            <div class="ml-2">
+                <h3 class="fs-14 mb-1 c-white">Sitios de interes</h3>
+                <ul>
+                    <li class="mb-1"><a class="bb-white_h" href="">Lorem ipsum dolor sit.</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Commodi facilis quia quis!</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Aspernatur explicabo !</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Eius explicabo nihil repudiandae.</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</footer>
+<section class="bg-blue-dark d-flex jc-center ai-center c-white p-1">
+    <p>creditos del sitio</p>
+</section>
+</body>
+</html>

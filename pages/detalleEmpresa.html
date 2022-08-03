@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/atomic.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap"
+          rel="stylesheet">
+
+    <script defer type="module" src="../js/controladores/controladorDetallesEmpresa.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Empresas</title>
+</head>
+<body>
+<header class="d-flex ai-center jc-between bg-blue-primary p-2 res-flex-column res-p-1 ">
+    <h1 class="fs-30 c-white res-fs-20 res-mt-2">
+        Mapa Contaminantes
+    </h1>
+    <ul class="d-flex res-flex-column res-jc-center res-ai-center res-mt-2">
+
+        <li class="res-mb-1"><a href="empresas.html" class="p-1 bb-white_h ">Empresas</a></li>
+        <li class="res-mb-1"><a href="dashboard.html" class="p-1 bb-white_h ">Dashboards</a></li>
+        <li class="res-mb-1"><a href="mapa.html" class="p-1 bb-white_h">Mapa interactivo</a></li>
+        <li class="res-mb-1"><a href="miPerfil.html" class="p-1 bb-white_h">Mi Perfil</a></li>
+        <li class="res-mb-1"><a href="../index.html" class="p-1 bb-white_h">Cerrar Sesión</a></li>
+
+    </ul>
+</header>
+
+<main>
+
+    <!-- seccion detalles empresa -->
+    <section class="pl-10 pr-10 mt-5 res-p-1 res-mb-3 res-mt-2">
+
+
+        <h1 id="nombre" class="fs-25 mb-3 res-mb-3"></h1>
+
+        <section class="d-flex res-flex-column">
+            <div class="w-percent-70 res-w-percent-100 res-mb-2">
+                <h3 class="fs-16 mb-1">Descripción</h3>
+                <p id="descripcion" class="fs-12 lh-20 mr-2">
+                </p>
+            </div>
+            <div>
+                <div class="d-flex ai-center mb-2">
+                    <img class="mr-1" src="../assets/iconos/iconoEdificio.svg" alt="">
+                    <p id="actividad"></p>
+                </div>
+                <div class="d-flex ai-center mb-2">
+                    <img class="mr-1" src="../assets/iconos/iconoMapa.svg" alt="">
+                    <p id="direccion"></p>
+                </div>
+                <div class="d-flex ai-center mb-2">
+                    <img class="mr-1" src="../assets/iconos/iconoLlave.svg" alt="">
+                    <p id="sector"></p>
+                </div>
+
+            </div>
+
+        </section>
+        <section>
+            <ul class="d-flex res-flex-column">
+                <li class="d-flex bg-blue-primary mr-1  bg-white_h bc-blue-primary_h c-blue-primary_h res-mb-1 res-d-flex res-ai-center res-jc-center">
+                    <a class="c-blue-primary_h p-1" href="#productos" class="">Productos</a>
+                </li>
+                <li class="d-flex bg-blue-primary mr-1  bg-white_h bc-blue-primary_h c-blue-primary_h res-mb-1 res-d-flex res-ai-center res-jc-center">
+                    <a class="c-blue-primary_h p-1" href="#materias" class="">Materias</a>
+                </li>
+                <li class="d-flex bg-blue-primary mr-1  bg-white_h bc-blue-primary_h c-blue-primary_h res-mb-1 res-d-flex res-ai-center res-jc-center">
+                    <a class="c-blue-primary_h p-1" href="#residuos" class="">Residuos</a>
+                </li>
+                <li class="d-flex bg-blue-primary mr-1  bg-white_h bc-blue-primary_h c-blue-primary_h res-mb-1 res-d-flex res-ai-center res-jc-center">
+                    <a class="c-blue-primary_h p-1" href="#afectaciones" class="">Afectaciones</a>
+                </li>
+
+
+            </ul>
+        </section>
+
+    </section>
+
+    <!-- seccion productos -->
+    <section id="productos" class="pr-10 pl-10 pt-3 pb-3 mt-10 bg-blue-light res-p-1 res-mt-2 ">
+
+        <h1 class="fs-20 mb-2">Productos producidos por esta empresa</h1>
+        <p class="fs-12 lh-15 mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+            consequuntur earum eligendi expedita illum, ipsa magnam minima nemo
+            nobis nostrum optio pariatur quia ratione rem rerum sequi suscipit ut
+            veniam!
+        </p>
+
+
+        <div id="cont-productos" class="d-flex  jc-center f-wrap ai-center">
+            <div id="icono-carga-producto" class="d-none" >
+                <i class= 'fs-50 c-blue-primary bx bx-loader bx-spin' ></i>
+            </div>
+            <!-- tarjetas -->
+        </div>
+
+
+    </section>
+    <!-- seccion Materias primas -->
+    <section id="materias" class="pr-10 pl-10 pt-3 pb-3 mt-10 bg-green-light res-p-1 res-mt-2 ">
+        <h1 class="fs-20 mb-2">Materias primas utilizadas</h1>
+        <p class="fs-12 lh-15 mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+            consequuntur earum eligendi expedita illum, ipsa magnam minima nemo
+            nobis nostrum optio pariatur quia ratione rem rerum sequi suscipit ut
+            veniam!
+        </p>
+
+
+        <div id="cont-materias" class="d-flex  jc-around f-wrap">
+            <div id="icono-carga-materia" class="d-none" >
+                <i class= 'fs-50 c-green-primary bx bx-loader bx-spin' ></i>
+            </div>
+            <!-- tarjetas -->
+        </div>
+
+
+    </section>
+    <!-- seccion residuos-->
+    <section id="residuos" class="pr-10 pl-10 pt-3 pb-3 mt-10 bg-red-light res-p-1 res-mt-2 ">
+        <h1 class="fs-20 mb-2">Residuos generados</h1>
+        <p class="fs-12 lh-15 mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+            consequuntur earum eligendi expedita illum, ipsa magnam minima nemo
+            nobis nostrum optio pariatur quia ratione rem rerum sequi suscipit ut
+            veniam!
+        </p>
+
+
+        <div id="cont-residuos" class="d-flex  jc-around f-wrap">
+            <div id="icono-carga-residuo" class="d-none" >
+                <i class= 'fs-50 c-red-primary bx bx-loader bx-spin' ></i>
+            </div>
+            <!-- tarjeta -->
+        </div>
+
+
+    </section>
+    <!-- seccion afectaciones-->
+    <section id="afectaciones" class="pr-10 pl-10 pt-3 pb-3 mt-10 bg-purple-light mb-5 res-p-1 res-mt-2 ">
+        <h1 class="fs-20 mb-2">Potenciales Afectaciones causadas</h1>
+        <p class="fs-12 lh-15 mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+            consequuntur earum eligendi expedita illum, ipsa magnam minima nemo
+            nobis nostrum optio pariatur quia ratione rem rerum sequi suscipit ut
+            veniam!
+        </p>
+
+
+        <div id="cont-afectaciones" class="d-flex jc-around f-wrap">
+            <div id="icono-carga-afectacion" class="d-none" >
+                <i class= 'fs-50 c-purple-primary bx bx-loader bx-spin' ></i>
+            </div>
+            <!-- tarjeta -->
+        </div>
+
+
+    </section>
+
+</main>
+
+
+<section id="modal" class="modal ">
+    <div  class="modal__container ">
+        <img src="../assets/logos/logoError.svg" class="w-15 ">
+        <h2 class="fs-20 mb-2">
+            Opps ha ocurrido un error!
+        </h2>
+        <p class="mb-1">
+            Porfavor Vuelva a intentarlo en un momento
+        </p>
+        <button id="botonModal"  class="p-1 pl-3 pr-3 bg-blue-primary c-white bc-blue-primary_h bg-white_h c-blue-primary_h">Cerrar</button>
+    </div>
+</section>
+
+<footer class="bg-blue-primary p-3 res-p-1">
+
+    <section class="d-flex jc-center bc-white pt-small">
+
+        <a href=""><i class="fs-25 m-1 bx bxl-facebook-circle"></i></a>
+        <a href=""><i class="fs-25 m-1 bx bxl-instagram-alt"></i></a>
+        <a href=""><i class="fs-25 m-1 bx bxl-twitter"></i></a>
+
+
+    </section>
+    <section class="d-flex res-flex-column">
+
+        <div class="d-flex w-percent-50 ai-center jc-center bc-white mt-2 p-3 mr-1 res-flex-column res-p-0 res-w-percent-100">
+            <img class="res-p-1" src="../assets/logos/logoContacto.svg" alt="">
+            <div class="ml-2 res-mt-2 ">
+                <h3 class="fs-14 mb-1 c-white">Contacto</h3>
+                <ul class="res-mt-1" >
+                    <li class="mb-1"><a class="bb-white_h" href="">Lorem ipsum dolor sit.</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Commodi facilis quia quis!</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Aspernatur explicabo !</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Eius explicabo nihil repudiandae.</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="d-flex w-percent-50 ai-center jc-center bc-white mt-2 ml-1 res-flex-column res-p-0 res-m-0 res-mt-1 res-w-percent-100">
+            <img class="res-p-1"  src="../assets/logos/logoEnlaces.svg" alt="">
+            <div class="ml-2">
+                <h3 class="fs-14 mb-1 c-white">Sitios de interes</h3>
+                <ul>
+                    <li class="mb-1"><a class="bb-white_h" href="">Lorem ipsum dolor sit.</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Commodi facilis quia quis!</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Aspernatur explicabo !</a></li>
+                    <li class="mb-1"><a class="bb-white_h" href="">Eius explicabo nihil repudiandae.</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</footer>
+<section class="bg-blue-dark d-flex jc-center ai-center c-white p-1">
+    <p>creditos del sitio</p>
+</section>
+
+
+
+</body>
+</html>
